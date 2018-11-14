@@ -8,6 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "YConnect.h"
+#import "YConnectUserInfoClient.h"
+#import "YConnectLog.h"
+#import "YConnectCheckIdClient.h"
+#import "YConnectTokenClient.h"
+#import "NSNull+isNull.h"
 
 //! Project version number for MFYConnect.
 FOUNDATION_EXPORT double MFYConnectVersionNumber;
