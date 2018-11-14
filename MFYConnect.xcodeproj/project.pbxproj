@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6EAB554D219BE9D9006D4F49 /* MFYConnect.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAB554B219BE9D9006D4F49 /* MFYConnect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EAB559B219BEA4E006D4F49 /* YConnectConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAB5574219BEA4E006D4F49 /* YConnectConfig.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		6EAB559C219BEA4E006D4F49 /* YConnectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAB5575219BEA4E006D4F49 /* YConnectManager.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		6EAB559D219BEA4E006D4F49 /* YConnectConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAB5576219BEA4E006D4F49 /* YConnectConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EAB559E219BEA4E006D4F49 /* YConnectManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAB5577219BEA4E006D4F49 /* YConnectManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EAB559F219BEA4E006D4F49 /* YConnect-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 6EAB5578219BEA4E006D4F49 /* YConnect-Prefix.pch */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EAB55A0219BEA4E006D4F49 /* YConnectStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAB557A219BEA4E006D4F49 /* YConnectStringUtil.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		6EAB55A1219BEA4E006D4F49 /* YConnectHttpHeaders.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAB557B219BEA4E006D4F49 /* YConnectHttpHeaders.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		6EAB55A2219BEA4E006D4F49 /* YConnectHttpClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAB557C219BEA4E006D4F49 /* YConnectHttpClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EAB55A3219BEA4E006D4F49 /* YConnectHttpParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAB557D219BEA4E006D4F49 /* YConnectHttpParameters.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		6EAB55A4219BEA4E006D4F49 /* YConnectStringUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAB557E219BEA4E006D4F49 /* YConnectStringUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EAB55A5219BEA4E006D4F49 /* YConnectHttpHeaders.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAB557F219BEA4E006D4F49 /* YConnectHttpHeaders.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EAB55A6219BEA4E006D4F49 /* YConnectHttpParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAB5580219BEA4E006D4F49 /* YConnectHttpParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EAB55A7219BEA4E006D4F49 /* YConnectHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAB5581219BEA4E006D4F49 /* YConnectHttpClient.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		6EAB55A8219BEA4E006D4F49 /* NSNull+isNull.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAB5582219BEA4E006D4F49 /* NSNull+isNull.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EAB55A9219BEA4E006D4F49 /* YConnectError.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAB5583219BEA4E006D4F49 /* YConnectError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EAB55AA219BEA4E006D4F49 /* YConnectLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAB5584219BEA4E006D4F49 /* YConnectLog.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		6EAB55AB219BEA4E006D4F49 /* YConnectAuthorizationCallBackUriParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAB5586219BEA4E006D4F49 /* YConnectAuthorizationCallBackUriParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EAB55AC219BEA4E006D4F49 /* YConnectBearerToken.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAB5587219BEA4E006D4F49 /* YConnectBearerToken.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		6EAB55AD219BEA4E006D4F49 /* YConnectTokenClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAB5588219BEA4E006D4F49 /* YConnectTokenClient.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		6EAB55AE219BEA4E006D4F49 /* YConnectBearerToken.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAB5589219BEA4E006D4F49 /* YConnectBearerToken.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EAB55AF219BEA4E006D4F49 /* YConnectAuthorizationCallBackUriParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAB558A219BEA4E006D4F49 /* YConnectAuthorizationCallBackUriParser.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		6EAB55B0219BEA4E006D4F49 /* YConnectTokenClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAB558B219BEA4E006D4F49 /* YConnectTokenClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EAB55B1219BEA4E006D4F49 /* YConnectIdTokenObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAB558D219BEA4E006D4F49 /* YConnectIdTokenObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EAB55B2219BEA4E006D4F49 /* YConnectCheckIdClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAB558E219BEA4E006D4F49 /* YConnectCheckIdClient.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		6EAB55B3219BEA4E006D4F49 /* YConnectUserInfoClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAB558F219BEA4E006D4F49 /* YConnectUserInfoClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EAB55B4219BEA4E006D4F49 /* YConnectUserInfoObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAB5590219BEA4E006D4F49 /* YConnectUserInfoObject.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		6EAB55B5219BEA4E006D4F49 /* YConnectIdTokenObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAB5591219BEA4E006D4F49 /* YConnectIdTokenObject.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		6EAB55B6219BEA4E006D4F49 /* YConnectUserInfoClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAB5592219BEA4E006D4F49 /* YConnectUserInfoClient.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		6EAB55B7219BEA4E006D4F49 /* YConnectCheckIdClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAB5593219BEA4E006D4F49 /* YConnectCheckIdClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EAB55B8219BEA4E006D4F49 /* YConnectUserInfoObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAB5594219BEA4E006D4F49 /* YConnectUserInfoObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EAB55B9219BEA4E006D4F49 /* YConnect.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAB5595219BEA4E006D4F49 /* YConnect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EAB55BA219BEA4E006D4F49 /* YConnectAPIClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAB5597219BEA4E006D4F49 /* YConnectAPIClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EAB55BB219BEA4E006D4F49 /* YConnectAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAB5598219BEA4E006D4F49 /* YConnectAPIClient.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+		6EAB55BC219BEA4E006D4F49 /* YConnectLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EAB5599219BEA4E006D4F49 /* YConnectLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EAB55BD219BEA4E006D4F49 /* YConnectError.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EAB559A219BEA4E006D4F49 /* YConnectError.m */; settings = {COMPILER_FLAGS = "-w"; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6EAB5548219BE9D9006D4F49 /* MFYConnect.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MFYConnect.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6EAB554B219BE9D9006D4F49 /* MFYConnect.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MFYConnect.h; sourceTree = "<group>"; };
+		6EAB554C219BE9D9006D4F49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6EAB5574219BEA4E006D4F49 /* YConnectConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YConnectConfig.m; sourceTree = "<group>"; };
+		6EAB5575219BEA4E006D4F49 /* YConnectManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YConnectManager.m; sourceTree = "<group>"; };
+		6EAB5576219BEA4E006D4F49 /* YConnectConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YConnectConfig.h; sourceTree = "<group>"; };
+		6EAB5577219BEA4E006D4F49 /* YConnectManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YConnectManager.h; sourceTree = "<group>"; };
+		6EAB5578219BEA4E006D4F49 /* YConnect-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YConnect-Prefix.pch"; sourceTree = "<group>"; };
+		6EAB557A219BEA4E006D4F49 /* YConnectStringUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YConnectStringUtil.m; sourceTree = "<group>"; };
+		6EAB557B219BEA4E006D4F49 /* YConnectHttpHeaders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YConnectHttpHeaders.m; sourceTree = "<group>"; };
+		6EAB557C219BEA4E006D4F49 /* YConnectHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YConnectHttpClient.h; sourceTree = "<group>"; };
+		6EAB557D219BEA4E006D4F49 /* YConnectHttpParameters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YConnectHttpParameters.m; sourceTree = "<group>"; };
+		6EAB557E219BEA4E006D4F49 /* YConnectStringUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YConnectStringUtil.h; sourceTree = "<group>"; };
+		6EAB557F219BEA4E006D4F49 /* YConnectHttpHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YConnectHttpHeaders.h; sourceTree = "<group>"; };
+		6EAB5580219BEA4E006D4F49 /* YConnectHttpParameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YConnectHttpParameters.h; sourceTree = "<group>"; };
+		6EAB5581219BEA4E006D4F49 /* YConnectHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YConnectHttpClient.m; sourceTree = "<group>"; };
+		6EAB5582219BEA4E006D4F49 /* NSNull+isNull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNull+isNull.h"; sourceTree = "<group>"; };
+		6EAB5583219BEA4E006D4F49 /* YConnectError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YConnectError.h; sourceTree = "<group>"; };
+		6EAB5584219BEA4E006D4F49 /* YConnectLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YConnectLog.m; sourceTree = "<group>"; };
+		6EAB5586219BEA4E006D4F49 /* YConnectAuthorizationCallBackUriParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YConnectAuthorizationCallBackUriParser.h; sourceTree = "<group>"; };
+		6EAB5587219BEA4E006D4F49 /* YConnectBearerToken.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YConnectBearerToken.m; sourceTree = "<group>"; };
+		6EAB5588219BEA4E006D4F49 /* YConnectTokenClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YConnectTokenClient.m; sourceTree = "<group>"; };
+		6EAB5589219BEA4E006D4F49 /* YConnectBearerToken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YConnectBearerToken.h; sourceTree = "<group>"; };
+		6EAB558A219BEA4E006D4F49 /* YConnectAuthorizationCallBackUriParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YConnectAuthorizationCallBackUriParser.m; sourceTree = "<group>"; };
+		6EAB558B219BEA4E006D4F49 /* YConnectTokenClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YConnectTokenClient.h; sourceTree = "<group>"; };
+		6EAB558D219BEA4E006D4F49 /* YConnectIdTokenObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YConnectIdTokenObject.h; sourceTree = "<group>"; };
+		6EAB558E219BEA4E006D4F49 /* YConnectCheckIdClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YConnectCheckIdClient.m; sourceTree = "<group>"; };
+		6EAB558F219BEA4E006D4F49 /* YConnectUserInfoClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YConnectUserInfoClient.h; sourceTree = "<group>"; };
+		6EAB5590219BEA4E006D4F49 /* YConnectUserInfoObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YConnectUserInfoObject.m; sourceTree = "<group>"; };
+		6EAB5591219BEA4E006D4F49 /* YConnectIdTokenObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YConnectIdTokenObject.m; sourceTree = "<group>"; };
+		6EAB5592219BEA4E006D4F49 /* YConnectUserInfoClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YConnectUserInfoClient.m; sourceTree = "<group>"; };
+		6EAB5593219BEA4E006D4F49 /* YConnectCheckIdClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YConnectCheckIdClient.h; sourceTree = "<group>"; };
+		6EAB5594219BEA4E006D4F49 /* YConnectUserInfoObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YConnectUserInfoObject.h; sourceTree = "<group>"; };
+		6EAB5595219BEA4E006D4F49 /* YConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YConnect.h; sourceTree = "<group>"; };
+		6EAB5597219BEA4E006D4F49 /* YConnectAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YConnectAPIClient.h; sourceTree = "<group>"; };
+		6EAB5598219BEA4E006D4F49 /* YConnectAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YConnectAPIClient.m; sourceTree = "<group>"; };
+		6EAB5599219BEA4E006D4F49 /* YConnectLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YConnectLog.h; sourceTree = "<group>"; };
+		6EAB559A219BEA4E006D4F49 /* YConnectError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YConnectError.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6EAB5545219BE9D9006D4F49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EAB553E219BE9D9006D4F49 = {
+			isa = PBXGroup;
+			children = (
+				6EAB554A219BE9D9006D4F49 /* MFYConnect */,
+				6EAB5549219BE9D9006D4F49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6EAB5549219BE9D9006D4F49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6EAB5548219BE9D9006D4F49 /* MFYConnect.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6EAB554A219BE9D9006D4F49 /* MFYConnect */ = {
+			isa = PBXGroup;
+			children = (
+				6EAB5571219BEA4E006D4F49 /* Source */,
+				6EAB554B219BE9D9006D4F49 /* MFYConnect.h */,
+				6EAB554C219BE9D9006D4F49 /* Info.plist */,
+			);
+			path = MFYConnect;
+			sourceTree = "<group>";
+		};
+		6EAB5571219BEA4E006D4F49 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				6EAB5572219BEA4E006D4F49 /* YConnect */,
+			);
+			path = Source;
+			sourceTree = SOURCE_ROOT;
+		};
+		6EAB5572219BEA4E006D4F49 /* YConnect */ = {
+			isa = PBXGroup;
+			children = (
+				6EAB5595219BEA4E006D4F49 /* YConnect.h */,
+				6EAB5578219BEA4E006D4F49 /* YConnect-Prefix.pch */,
+				6EAB5599219BEA4E006D4F49 /* YConnectLog.h */,
+				6EAB5584219BEA4E006D4F49 /* YConnectLog.m */,
+				6EAB5583219BEA4E006D4F49 /* YConnectError.h */,
+				6EAB559A219BEA4E006D4F49 /* YConnectError.m */,
+				6EAB5573219BEA4E006D4F49 /* yconnect */,
+				6EAB5579219BEA4E006D4F49 /* util */,
+				6EAB5585219BEA4E006D4F49 /* oauth2 */,
+				6EAB558C219BEA4E006D4F49 /* oidc */,
+				6EAB5596219BEA4E006D4F49 /* api */,
+			);
+			path = YConnect;
+			sourceTree = "<group>";
+		};
+		6EAB5573219BEA4E006D4F49 /* yconnect */ = {
+			isa = PBXGroup;
+			children = (
+				6EAB5574219BEA4E006D4F49 /* YConnectConfig.m */,
+				6EAB5575219BEA4E006D4F49 /* YConnectManager.m */,
+				6EAB5576219BEA4E006D4F49 /* YConnectConfig.h */,
+				6EAB5577219BEA4E006D4F49 /* YConnectManager.h */,
+			);
+			path = yconnect;
+			sourceTree = "<group>";
+		};
+		6EAB5579219BEA4E006D4F49 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				6EAB557A219BEA4E006D4F49 /* YConnectStringUtil.m */,
+				6EAB557B219BEA4E006D4F49 /* YConnectHttpHeaders.m */,
+				6EAB557C219BEA4E006D4F49 /* YConnectHttpClient.h */,
+				6EAB557D219BEA4E006D4F49 /* YConnectHttpParameters.m */,
+				6EAB557E219BEA4E006D4F49 /* YConnectStringUtil.h */,
+				6EAB557F219BEA4E006D4F49 /* YConnectHttpHeaders.h */,
+				6EAB5580219BEA4E006D4F49 /* YConnectHttpParameters.h */,
+				6EAB5581219BEA4E006D4F49 /* YConnectHttpClient.m */,
+				6EAB5582219BEA4E006D4F49 /* NSNull+isNull.h */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		6EAB5585219BEA4E006D4F49 /* oauth2 */ = {
+			isa = PBXGroup;
+			children = (
+				6EAB5586219BEA4E006D4F49 /* YConnectAuthorizationCallBackUriParser.h */,
+				6EAB5587219BEA4E006D4F49 /* YConnectBearerToken.m */,
+				6EAB5588219BEA4E006D4F49 /* YConnectTokenClient.m */,
+				6EAB5589219BEA4E006D4F49 /* YConnectBearerToken.h */,
+				6EAB558A219BEA4E006D4F49 /* YConnectAuthorizationCallBackUriParser.m */,
+				6EAB558B219BEA4E006D4F49 /* YConnectTokenClient.h */,
+			);
+			path = oauth2;
+			sourceTree = "<group>";
+		};
+		6EAB558C219BEA4E006D4F49 /* oidc */ = {
+			isa = PBXGroup;
+			children = (
+				6EAB558D219BEA4E006D4F49 /* YConnectIdTokenObject.h */,
+				6EAB558E219BEA4E006D4F49 /* YConnectCheckIdClient.m */,
+				6EAB558F219BEA4E006D4F49 /* YConnectUserInfoClient.h */,
+				6EAB5590219BEA4E006D4F49 /* YConnectUserInfoObject.m */,
+				6EAB5591219BEA4E006D4F49 /* YConnectIdTokenObject.m */,
+				6EAB5592219BEA4E006D4F49 /* YConnectUserInfoClient.m */,
+				6EAB5593219BEA4E006D4F49 /* YConnectCheckIdClient.h */,
+				6EAB5594219BEA4E006D4F49 /* YConnectUserInfoObject.h */,
+			);
+			path = oidc;
+			sourceTree = "<group>";
+		};
+		6EAB5596219BEA4E006D4F49 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				6EAB5597219BEA4E006D4F49 /* YConnectAPIClient.h */,
+				6EAB5598219BEA4E006D4F49 /* YConnectAPIClient.m */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6EAB5543219BE9D9006D4F49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EAB55B9219BEA4E006D4F49 /* YConnect.h in Headers */,
+				6EAB554D219BE9D9006D4F49 /* MFYConnect.h in Headers */,
+				6EAB55AE219BEA4E006D4F49 /* YConnectBearerToken.h in Headers */,
+				6EAB55A4219BEA4E006D4F49 /* YConnectStringUtil.h in Headers */,
+				6EAB55A5219BEA4E006D4F49 /* YConnectHttpHeaders.h in Headers */,
+				6EAB55B0219BEA4E006D4F49 /* YConnectTokenClient.h in Headers */,
+				6EAB55B3219BEA4E006D4F49 /* YConnectUserInfoClient.h in Headers */,
+				6EAB55A8219BEA4E006D4F49 /* NSNull+isNull.h in Headers */,
+				6EAB55A2219BEA4E006D4F49 /* YConnectHttpClient.h in Headers */,
+				6EAB55B1219BEA4E006D4F49 /* YConnectIdTokenObject.h in Headers */,
+				6EAB559D219BEA4E006D4F49 /* YConnectConfig.h in Headers */,
+				6EAB55B7219BEA4E006D4F49 /* YConnectCheckIdClient.h in Headers */,
+				6EAB55A9219BEA4E006D4F49 /* YConnectError.h in Headers */,
+				6EAB55BA219BEA4E006D4F49 /* YConnectAPIClient.h in Headers */,
+				6EAB55A6219BEA4E006D4F49 /* YConnectHttpParameters.h in Headers */,
+				6EAB55AB219BEA4E006D4F49 /* YConnectAuthorizationCallBackUriParser.h in Headers */,
+				6EAB55BC219BEA4E006D4F49 /* YConnectLog.h in Headers */,
+				6EAB559F219BEA4E006D4F49 /* YConnect-Prefix.pch in Headers */,
+				6EAB55B8219BEA4E006D4F49 /* YConnectUserInfoObject.h in Headers */,
+				6EAB559E219BEA4E006D4F49 /* YConnectManager.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		6EAB5547219BE9D9006D4F49 /* MFYConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6EAB5550219BE9D9006D4F49 /* Build configuration list for PBXNativeTarget "MFYConnect" */;
+			buildPhases = (
+				6EAB5543219BE9D9006D4F49 /* Headers */,
+				6EAB5544219BE9D9006D4F49 /* Sources */,
+				6EAB5545219BE9D9006D4F49 /* Frameworks */,
+				6EAB5546219BE9D9006D4F49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MFYConnect;
+			productName = MFYConnect;
+			productReference = 6EAB5548219BE9D9006D4F49 /* MFYConnect.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6EAB553F219BE9D9006D4F49 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "SCSK Corporation";
+				TargetAttributes = {
+					6EAB5547219BE9D9006D4F49 = {
+						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
+					};
+				};
+			};
+			buildConfigurationList = 6EAB5542219BE9D9006D4F49 /* Build configuration list for PBXProject "MFYConnect" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6EAB553E219BE9D9006D4F49;
+			productRefGroup = 6EAB5549219BE9D9006D4F49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6EAB5547219BE9D9006D4F49 /* MFYConnect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6EAB5546219BE9D9006D4F49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6EAB5544219BE9D9006D4F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EAB55A3219BEA4E006D4F49 /* YConnectHttpParameters.m in Sources */,
+				6EAB55B5219BEA4E006D4F49 /* YConnectIdTokenObject.m in Sources */,
+				6EAB55B6219BEA4E006D4F49 /* YConnectUserInfoClient.m in Sources */,
+				6EAB55A7219BEA4E006D4F49 /* YConnectHttpClient.m in Sources */,
+				6EAB559C219BEA4E006D4F49 /* YConnectManager.m in Sources */,
+				6EAB55B2219BEA4E006D4F49 /* YConnectCheckIdClient.m in Sources */,
+				6EAB55B4219BEA4E006D4F49 /* YConnectUserInfoObject.m in Sources */,
+				6EAB55BD219BEA4E006D4F49 /* YConnectError.m in Sources */,
+				6EAB55A0219BEA4E006D4F49 /* YConnectStringUtil.m in Sources */,
+				6EAB55AA219BEA4E006D4F49 /* YConnectLog.m in Sources */,
+				6EAB55AD219BEA4E006D4F49 /* YConnectTokenClient.m in Sources */,
+				6EAB55AC219BEA4E006D4F49 /* YConnectBearerToken.m in Sources */,
+				6EAB559B219BEA4E006D4F49 /* YConnectConfig.m in Sources */,
+				6EAB55BB219BEA4E006D4F49 /* YConnectAPIClient.m in Sources */,
+				6EAB55A1219BEA4E006D4F49 /* YConnectHttpHeaders.m in Sources */,
+				6EAB55AF219BEA4E006D4F49 /* YConnectAuthorizationCallBackUriParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6EAB554E219BE9D9006D4F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6EAB554F219BE9D9006D4F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6EAB5551219BE9D9006D4F49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = MFYConnect/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = minefocus.MFYConnect;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6EAB5552219BE9D9006D4F49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = MFYConnect/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = minefocus.MFYConnect;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6EAB5542219BE9D9006D4F49 /* Build configuration list for PBXProject "MFYConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EAB554E219BE9D9006D4F49 /* Debug */,
+				6EAB554F219BE9D9006D4F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6EAB5550219BE9D9006D4F49 /* Build configuration list for PBXNativeTarget "MFYConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EAB5551219BE9D9006D4F49 /* Debug */,
+				6EAB5552219BE9D9006D4F49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6EAB553F219BE9D9006D4F49 /* Project object */;
+}
