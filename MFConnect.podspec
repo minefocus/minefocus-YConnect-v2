@@ -8,5 +8,5 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/minefocus/minefocus-YConnect-v2.git', :tag => s.version }
 
   s.ios.deployment_target = '10.0'
-  s.source_files = 'Source', 'Source/*'
+  s.source_files = 'Source', 'Source/**/*'
 end
